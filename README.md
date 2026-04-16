@@ -15,16 +15,27 @@ An e-commerce startup QuickCart wants to build a Product Listing Dashboard for
 
 ## Screenshots
 ### Dashboard View
-![Dashboard Screenshot](#)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7c835ef7-d197-40ff-a364-6d224963d82b" />
+
 *Screenshot of the dashboard displaying product cards.*
 
 ### Search Functionality
-![Search Screenshot](#)
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/a278b182-5667-4919-9863-e02d441caee5" />
+
 *Screenshot showing the search functionality in action.*
 
 ### Add to Cart
 <img width="958" height="539" alt="Day3_Assesment_Output_Screenshot" src="https://github.com/user-attachments/assets/e82929d2-5a28-437a-a905-169647e7da67" />
 *Screenshot showing the cart count updating after adding items.*
+
+Project Structure (Expected)
+quickcart-dashboard/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+└── README.md
 
 ## Challenges Faced
 1. **API Integration**: Ensuring smooth data fetching and handling errors gracefully.

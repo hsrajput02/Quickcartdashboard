@@ -1,0 +1,89 @@
+  .card {
+            display: flex;
+            flex-direction: column;
+            height: 560px;
+            background-color: #f9f9f9;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card-title {
+            color: #000000;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #555;
+        }
+
+        .card:hover {
+            background-color: #f1f1f1;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #343a40;
+            color: white;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .search {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px 0px 0px 4px;
+            width: 100%;
+        }
+        
+        .search-btn {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 0px 4px 4px 0px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .search-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .cart {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+        .cart:hover {
+            background-color: #1e7e34;
+        }
+        .cart-container {
+            position: relative;
+        }
+        .float-count {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
